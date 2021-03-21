@@ -12,17 +12,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Домашнее задание 1"
-        android:textSize="30dp"
-        android:textColor="@color/purple_500"/>
+        android:textColor="@color/purple_500"
+        android:textSize="30dp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:layout_marginTop="10dp">
+        android:paddingRight="16dp">
 
         <EditText
             android:layout_width="240dp"
@@ -35,8 +35,8 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="клик"
             android:layout_marginRight="5dp"
+            android:text="клик"
             app:backgroundTint="#06970C" />
     </LinearLayout>
 
@@ -57,9 +57,9 @@
             android:id="@+id/toggleButton"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:textColor="@color/teal_700"
             android:layout_marginRight="20dp"
-            android:text="ToggleButton" />
+            android:text="ToggleButton"
+            android:textColor="@color/teal_700" />
 
 
         <Switch
@@ -80,40 +80,39 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:orientation="vertical">
+        android:paddingRight="16dp">
 
         <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter PersonName" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter PersonName" />
 
         <EditText
             android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="phone"
-            android:hint="enter phone"/>
+            android:hint="enter phone"
+            android:inputType="phone" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword"
-            android:hint="enter password text"/>
+            android:hint="enter password text"
+            android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:hint="enter email"/>
+            android:hint="enter email"
+            android:inputType="textEmailAddress" />
 
     </LinearLayout>
-
 
 </LinearLayout>
